@@ -1,14 +1,13 @@
-// Copyright 2018 Your Name <your_email>
+// Copyright [2020] <Alyona Dorodnyaya>
 
-#ifndef INCLUDE_HEADER_HPP_
-#define INCLUDE_HEADER_HPP_
+#ifndef INCLUDE_DIRECTION_HPP_
 
 #include <iostream>
 
-void const* * direct(size_t length);
+void const** direct(size_t length);
 
-void const* * reverse(size_t length);
+void const** reverse(size_t length);
 
-void const* * random(size_t length);
+void const** random(size_t length);
 
-#endif // INCLUDE_HEADER_HPP_
+#endif  // INCLUDE_DIRECTION_HPP_

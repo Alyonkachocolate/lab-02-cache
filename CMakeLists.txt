@@ -29,7 +29,7 @@ find_package(GTest CONFIG REQUIRED)
 
 add_library(03-lab-02-cache-Alyonkachocolate-lib STATIC
         ${CMAKE_CURRENT_SOURCE_DIR}/
-        sources/direct.cpp sources/rdirect.cpp sources/random.cpp)
+        sources/direct.cpp sources/reverse.cpp sources/random.cpp)
 
 add_executable(03-lab-02-cache-Alyonkachocolate-app
         ${CMAKE_CURRENT_SOURCE_DIR}/sources/main.cpp)
