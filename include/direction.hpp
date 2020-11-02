@@ -1,6 +1,7 @@
 // Copyright [2020] <Alyona Dorodnyaya>
 
 #ifndef INCLUDE_DIRECTION_HPP_
+#define INCLUDE_DIRECTION_HPP_
 
 #include <iostream>
 

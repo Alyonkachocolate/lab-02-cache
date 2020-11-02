@@ -10,8 +10,9 @@ void const** random(size_t const length) {
   size_t random;
   srand(length - 1);  // границы рандома
   void const** current = arr;
+  static unsigned int seed = 0;
   for (size_t i = 0; i < length - 1; i = i + 16) {
-    random = rand() % length;
+    random = rand_r(&seed) % length;
     while (used_rand.count(random) != 0)  // проверка на наличие
       random = (random + 1) % length;
     used_rand.insert(random);
