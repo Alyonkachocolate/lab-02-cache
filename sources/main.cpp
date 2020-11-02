@@ -1,8 +1,8 @@
 // Copyright [2020] <Alyona Dorodnyaya>
 
-#include <vector>
 #include <chrono>
 #include <iostream>
+#include <vector>
 
 #include "direction.hpp"
 
@@ -19,7 +19,7 @@ int main() {
   std::vector<size_t> c{64u, 128u, 256u, 512u, 1024u, 2048u, 4096u, 8192u};
   std::cout << "2^6 < 2^7 < 2^8 < 2^9 < 2^10 < 2^11 < 2^12 < 2^13 Kb"
             << std::endl;
-  for (int64 i : c) {
+  for (auto i : c) {
     // создаём массивы для прямого, обратного и рандомного обхода
     auto const tested_direct = direct((i << 10u) / sizeof(void*));
     auto const tested_reverse = reverse((i << 10u) / sizeof(void*));
