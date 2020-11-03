@@ -1,8 +1,8 @@
 // Copyright [2020] <Alyona Dorodnyaya>
 
+#include <vector>
 #include <chrono>
 #include <iostream>
-#include <vector>
 
 #include "direction.hpp"
 
