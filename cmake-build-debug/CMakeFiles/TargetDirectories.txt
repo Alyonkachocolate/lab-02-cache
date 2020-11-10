@@ -1,6 +1,0 @@
-/Users/user/LAB/03-lab-02-cache-Alyonkachocolate/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/user/LAB/03-lab-02-cache-Alyonkachocolate/cmake-build-debug/CMakeFiles/tests.dir
-/Users/user/LAB/03-lab-02-cache-Alyonkachocolate/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/user/LAB/03-lab-02-cache-Alyonkachocolate/cmake-build-debug/CMakeFiles/03-lab-02-cache-Alyonkachocolate-lib.dir
-/Users/user/LAB/03-lab-02-cache-Alyonkachocolate/cmake-build-debug/CMakeFiles/test.dir
-/Users/user/LAB/03-lab-02-cache-Alyonkachocolate/cmake-build-debug/CMakeFiles/03-lab-02-cache-Alyonkachocolate-app.dir

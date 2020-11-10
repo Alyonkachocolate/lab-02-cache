@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc lib03-lab-02-cache-Alyonkachocolate-libd.a  CMakeFiles/03-lab-02-cache-Alyonkachocolate-lib.dir/sources/direct.cpp.o CMakeFiles/03-lab-02-cache-Alyonkachocolate-lib.dir/sources/reverse.cpp.o CMakeFiles/03-lab-02-cache-Alyonkachocolate-lib.dir/sources/random.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib lib03-lab-02-cache-Alyonkachocolate-libd.a
