@@ -4,14 +4,14 @@
 #include <set>
 
 // void - так как храним только указатели
-void const** random(size_t const length) {
+void const** random(size_t length) {
   void const** arr = new void const*[length];
   std::set<size_t> used_rand{0u};
   size_t random;
   srand(length - 1);  // границы рандома
   void const** current = arr;
-  static unsigned int seed = 0;
-  for (size_t i = 0; i < length - 1; i = i + 16) {
+  static auto seed = static_cast<unsigned int>(time(nullptr));;
+  for (size_t i = 0; i < length - 16; i+=16) {
     random = rand_r(&seed) % length;
     while (used_rand.count(random) != 0)  // проверка на наличие
       random = (random + 1) % length;
@@ -20,6 +20,6 @@ void const** random(size_t const length) {
     current = static_cast<void const**>(arr + random);  // переход к элементу
   }
 
-  current = nullptr;
+  *current = nullptr;
   return arr;
 }

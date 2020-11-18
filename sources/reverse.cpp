@@ -4,7 +4,7 @@
 #include <set>
 
 // void - так как храним только указатели
-void const** reverse(size_t const length) {
+void const** reverse(size_t length) {
   void const** arr = new void const*[length];
   arr[0] = &arr[length - 16];
   for (size_t i = 32; i < length; i += 16) {

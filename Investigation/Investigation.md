@@ -1,6 +1,7 @@
 # Investigation
 
-#### Diagram: ![Diagram](./Diagram.png)
+#### Diagram: 
+![Diagram](./Diagram.png)
 
 - **Travel_variant:** direction
 
@@ -14,7 +15,7 @@
 
   - results:
 
-    		duration: 3428 ns
+    		duration: 3036 ns
 
     
   <u>Experiment:</u>
@@ -27,7 +28,7 @@
 
   - results:
 
-    		duration: 7006 ns
+    		duration: 7685 ns
 
     
 
@@ -41,7 +42,7 @@
 
   - results:
 
-    		duration: 14648 ns
+    		duration: 16122 ns
 
     
 
@@ -55,7 +56,7 @@
 
   - results:
 
-    		duration: 39128 ns
+    		duration: 33564 ns
 
     
 
@@ -69,7 +70,7 @@
 
   - results:
 
-    		duration: 60829 ns
+    		duration: 63284 ns
 
     
 
@@ -83,7 +84,7 @@
 
   - results:
 
-    		duration: 121242 ns
+    		duration: 125413 ns
 
     
 
@@ -97,7 +98,7 @@
 
   - results:
 
-    		duration: 488067 ns
+    		duration: 527986 ns
 
     
 
@@ -111,7 +112,7 @@
 
   - results:
 
-    		duration: 1063832 ns
+    		duration: 1093626 ns
 
 - **Travel_variant:** reverse
 
@@ -125,7 +126,7 @@
 
   - results:
 
-    		duration: 3470 ns
+    		duration: 3582 ns
 
     
 
@@ -139,7 +140,7 @@
 
   - results:
 
-    		duration: 7403 ns
+    		duration: 8217 ns
 
     
 
@@ -153,7 +154,7 @@
 
   - results:
 
-    		duration: 7403 ns
+    		duration: 18653 ns
 
     
 
@@ -167,7 +168,7 @@
 
   - results:
 
-    		duration: 38471 ns
+    		duration: 39599 ns
 
     
 
@@ -181,7 +182,7 @@
 
   - results:
 
-    		duration: 62786 ns
+    		duration: 69639 ns
 
     
 
@@ -195,7 +196,7 @@
 
   - results:
 
-    		duration: 189956 ns
+    		duration: 224118 ns
 
     
 
@@ -209,7 +210,7 @@
 
   - results:
 
-    		duration: 586939 ns
+    		duration: 611007 ns
 
     
 
@@ -223,7 +224,7 @@
 
   - results:
 
-    		duration: 1283412 ns
+    		duration: 1358738 ns
 
 - **Travel_variant:** random
 
@@ -237,7 +238,7 @@
 
   - results:
 
-    		duration: 2362 ns
+    		duration: 3133 ns
 
     
 
@@ -251,7 +252,7 @@
 
   - results:
 
-    		duration: 6843 ns
+    		duration: 7724 ns
 
     
 
@@ -265,7 +266,7 @@
 
   - results:
 
-    		duration: 17656 ns
+    		duration: 23051 ns
 
     
 
@@ -279,7 +280,7 @@
 
   - results:
 
-    		duration: 64677 ns
+    		duration: 76015 ns
 
     
 
@@ -293,7 +294,7 @@
 
   - results:
 
-    		duration: 176105 ns
+    		duration: 133452 ns
 
     
 
@@ -307,7 +308,7 @@
 
   - results:
 
-    		duration: 357623 ns
+    		duration: 348146ns
 
     
 
@@ -321,7 +322,7 @@
 
   - results:
 
-    		duration: 931137 ns
+    		duration: 1189555 ns
 
     
 
@@ -335,7 +336,7 @@
 
   - results:
 
-    		duration: 3865034 ns
+    		duration: 4993859 ns
 
     
 
